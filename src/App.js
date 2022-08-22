@@ -7,14 +7,16 @@ import Updateproduct from './components/Updateproduct';
 import Createnewproduct from './components/Createnewproduct';
 
 
+
 function App() {
   return (
     <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/home" element={<Home/>}/>
           <Route path="/productdetails" element={<Productdetails/>}/>
           <Route path="/updateproduct" element={<Updateproduct/>}/>
           <Route path="/createnewproduct" element={<Createnewproduct/>}/>
+        
         </Routes>
       </BrowserRouter>
   );

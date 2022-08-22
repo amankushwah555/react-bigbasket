@@ -12,20 +12,20 @@ const Createnewproduct = ()=> {
         <div><nav className="navbar navbar-expand-lg bg-success p-3 text-center  ">
         <div className='container'>
             <div ><b><AiOutlineShoppingCart className='fs-2 text-white p-1 '></AiOutlineShoppingCart></b></div>
-            <Link to='./home' className="navbar-brand text-white " > Big Basket</Link>
+            <Link to='' className="navbar-brand text-white " > Big Basket</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item active">
-                  <Link to='./home' className="nav-link text-white" >Home</Link>
+                  <Link to='/home' className="nav-link text-white" >Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link to='./home' className="nav-link text-white" >Product</Link>
+                  <Link to='/Productdetails' className="nav-link text-white" >Product</Link>
                 </li>
               </ul>
-              <div className='text-end col-10 '><Link to='./home' className='text-decoration-none text-white'>Admin</Link></div>
+              <div className='text-end col-10 '><Link to='' className='text-decoration-none text-white'>Admin</Link></div>
             </div>
             </div>
           </nav>
@@ -72,7 +72,7 @@ const Createnewproduct = ()=> {
                       
                     </div>
                     <div className="card-footer text-muted text-start bg-white">
-                      <button type="button" className="btn btn-success rounded-pill px-3">Update</button>
+                      <button type="button" className="btn btn-success rounded-pill px-3">Create</button>
                       
                     </div>
                   </div>

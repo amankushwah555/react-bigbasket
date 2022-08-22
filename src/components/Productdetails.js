@@ -13,17 +13,17 @@ const Productdetails =()=>{
               <nav className="navbar navbar-expand-lg bg-success p-3 text-center  ">
        <div className='container'>
         <div ><b><AiOutlineShoppingCart className='fs-2 text-white p-1 '></AiOutlineShoppingCart></b></div>
-         <Link to='./home' className="navbar-brand text-white " > Big Basket</Link>
+         <Link to='' className="navbar-brand text-white " > Big Basket</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
          <span className="navbar-toggler-icon"></span>
        </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item active">
-          <Link to='./home' className="nav-link text-white" >Home</Link>
+          <Link to='/home' className="nav-link text-white" >Home</Link>
         </li>
         <li className="nav-item">
-          <Link to='./home' className="nav-link text-white" >Product</Link>
+          <Link to='/Productdetails' className="nav-link text-white" >Product</Link>
         </li>
       </ul>
       <div className='text-end col-10 '><Link to='./home' className='text-decoration-none text-white'>Admin</Link></div>
@@ -34,7 +34,7 @@ const Productdetails =()=>{
         <div className="row">
           <h3 className="text-success text-start">Product details</h3>
           <p className="text-muted text-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit.Exercitationem fuga eos consequatur! Natus, eum totam.</p>
-          <button className="btn col-2 text-white bg-success rounded-pill" type="button">CREATE NEW</button>
+         <Link to="/createnewproduct"> <button className="btn col-2 text-white bg-success rounded-pill" type="button">CREATE NEW</button></Link>
        </div>
     <table className="table mt-2">
         <thead>
@@ -54,7 +54,7 @@ const Productdetails =()=>{
                 <td><b> Potato</b></td>
                 <td><b><BiRupee></BiRupee>45.00</b></td>
                 <td><b>25kgs</b></td>
-                <td ><button className='rounded-pill m-2 bg-success text-white'>Update</button><button className='rounded-pill bg-danger text-white'>Delete</button></td>
+                <td ><Link to="/updateproduct"><button className='rounded-pill m-2 bg-success text-white'>Update</button></Link><button className='rounded-pill bg-danger text-white'>Delete</button></td>
             </tr>
             <tr className='text-center'>
                 <td scope="row"><b>70605</b></td>
@@ -62,7 +62,7 @@ const Productdetails =()=>{
                 <td><b> Cabagge</b></td>
                 <td><b><BiRupee></BiRupee>16.00</b></td>
                 <td><b>35kgs</b></td>
-                <td ><button className='rounded-pill m-2 bg-success text-white'>Update</button><button className='rounded-pill bg-danger text-white'>Delete</button></td>
+                <td ><Link to="/updateproduct"><button className='rounded-pill m-2 bg-success text-white'>Update</button></Link><button className='rounded-pill bg-danger text-white'>Delete</button></td>
             </tr>
             <tr className='text-center'style={{backgroundColor: "lightgray"}}>
                 <td scope="row"><b>70606</b></td>
@@ -70,7 +70,7 @@ const Productdetails =()=>{
                 <td><b> Awacado</b></td>
                 <td><b><BiRupee></BiRupee>45.00</b></td>
                 <td><b>25kgs</b></td>
-                <td ><button className='rounded-pill m-2 bg-success text-white'>Update</button><button className='rounded-pill bg-danger text-white'>Delete</button></td>
+                <td ><Link to="/updateproduct"><button className='rounded-pill m-2 bg-success text-white'>Update</button></Link><button className='rounded-pill bg-danger text-white'>Delete</button></td>
             </tr>
             <tr className='text-center'>
                 <td scope="row"><b>70607</b></td>
@@ -78,7 +78,7 @@ const Productdetails =()=>{
                 <td><b> Red Apple</b></td>
                 <td><b><BiRupee></BiRupee>45.00</b></td>
                 <td><b>25kgs</b></td>
-                <td ><button className='rounded-pill m-2 bg-success text-white'>Update</button><button className='rounded-pill bg-danger text-white'>Delete</button></td>
+                <td ><Link to="/updateproduct"><button className='rounded-pill m-2 bg-success text-white'>Update</button></Link><button className='rounded-pill bg-danger text-white'>Delete</button></td>
             </tr>
             
             
