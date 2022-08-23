@@ -5,7 +5,7 @@ import Productdetails from './components/Productdetails';
 import Home from './components/Home';
 import Updateproduct from './components/Updateproduct';
 import Createnewproduct from './components/Createnewproduct';
-
+import Productpage from './components/Productpage';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Route path="/productdetails" element={<Productdetails/>}/>
           <Route path="/updateproduct" element={<Updateproduct/>}/>
           <Route path="/createnewproduct" element={<Createnewproduct/>}/>
-        
+          <Route path="/productpage" element={<Productpage/>}/>
         </Routes>
       </BrowserRouter>
   );

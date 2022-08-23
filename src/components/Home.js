@@ -26,7 +26,7 @@ const Home = () => {
               <Link to='/home' className="nav-link text-white" >Home</Link>
             </li>
             <li className="nav-item">
-              <Link to='/Productdetails' className="nav-link text-white" >Product</Link>
+              <Link to='/productpage' className="nav-link text-white" >Product</Link>
             </li>
           </ul>
           <div className='text-end col-10 '><Link to='./home' className='text-decoration-none text-white'>Admin</Link></div>
